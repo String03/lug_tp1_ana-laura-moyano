@@ -1,0 +1,9 @@
+CREATE TABLE Estudiantes(
+	Id INT PRIMARY KEY IDENTITY (1,1),
+	Nombre VARCHAR(50) NOT NULL,
+	Apellido VARCHAR(50) NOT NULL,
+	Matricula INT NOT NULL UNIQUE,
+	Telefono VARCHAR(15),
+	Email VARCHAR(MAX),
+	Ciudad VARCHAR(MAX)
+)
